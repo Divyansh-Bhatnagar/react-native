@@ -26,6 +26,21 @@ const HomeScreen = ({ navigation }) => {
         //  onPress={() => props.navigation.navigate("Image")}
         onPress={() => navigation.navigate("Image")}
       />
+      <Button
+        title="Tap me to go Counter Screen"
+        //  onPress={() => props.navigation.navigate("Counter")}
+        onPress={() => navigation.navigate("Counter")}
+      />
+      <Button
+        title="Tap me to go Color Screen"
+        //  onPress={() => props.navigation.navigate("Color")}
+        onPress={() => navigation.navigate("Color")}
+      />
+      <Button
+        title="Tap me to go Color Screen"
+        //  onPress={() => props.navigation.navigate("square")}
+        onPress={() => navigation.navigate("square")}
+      />
     </View>
   );
 };
